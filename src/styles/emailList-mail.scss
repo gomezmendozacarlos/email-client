@@ -1,0 +1,68 @@
+.selected-mail {
+    border-left: 2px solid $selected !important;
+    background-color: $background_selected !important;
+}
+
+.emailList-mail {
+    height: 80px;
+    border-bottom: $border;
+    border-left: 2px solid #fff;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+
+    .indicators {
+        width: 40px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+        .read {
+            color: transparent;
+            align-self: center;
+
+        }
+
+        .not {
+            color: $selected !important;
+        }
+
+    }
+
+    .details {
+        width: 250px;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+
+        .name {
+            margin-left: 3px;
+            font-weight: bold ;
+        }
+
+        .subjet {
+            line-height: 1.8;
+        }
+
+        .content {
+            width: inherit;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1;
+            color: $short_description !important;
+        }
+    }
+
+    .date {
+        width: 80px;
+        padding-top: 15px;
+        font-size: 10px;
+        text-align: right;
+
+        .days {
+            margin-right: 15px !important;
+        }
+    }
+
+}

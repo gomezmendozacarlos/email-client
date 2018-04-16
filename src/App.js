@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-import './App.scss';
+import React, {Component} from 'react';
+import EmailWrapler from './components/EmailWrapler';
+import './styles/App.scss';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h2>Email Web Client</h2>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <EmailWrapler />
+        );
+    }
 }
 
 export default App;

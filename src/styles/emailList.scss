@@ -1,0 +1,24 @@
+.emailList {
+    width: 320px;
+    border-right: $border;
+}
+
+.emailList-header {
+    padding: 15px 0;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: $border;
+
+    .filter-btn {
+        padding-right: 15px;
+    }
+
+    .filter-btn:hover {
+        cursor: pointer;
+    }
+
+    .selected {
+        color: $selected;
+    }
+}
