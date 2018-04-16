@@ -7,9 +7,9 @@ class EmailList extends Component {
         return (
                 <section className="emailList">
                     <div className="emailList-header">
-                        <div className="filter-btn selected">Inbox</div>
-                        <div className="filter-btn">Trash</div>
-                        <div className="filter-btn">Spam</div>
+                        <div className="filter-btn selected"><i class="fas fa-circle"></i> Inbox</div>
+                        <div className="filter-btn"><i class="fas fa-trash-alt"></i> Trash</div>
+                        <div className="filter-btn"><i class="fas fa-bug"></i> Spam</div>
                     </div>
                     <EmailListMail />
                 </section>

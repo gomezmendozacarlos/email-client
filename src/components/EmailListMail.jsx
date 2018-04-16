@@ -6,7 +6,7 @@ class EmailListMail extends Component {
         return (<section>
             <article className="emailList-mail">
                 <div className="indicators">
-                    <span className="read not">h</span>
+                    <span className="read not"><i class="fas fa-circle"></i></span>
                 </div>
                 <div className="details">
                     <div className="sender">

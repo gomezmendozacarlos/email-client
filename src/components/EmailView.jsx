@@ -8,13 +8,13 @@ class EmailView extends Component {
                 <span className="subjet">Amazon SES Adress Verification Request</span>
                 <ul>
                     <li>
-                        <span className="actions">o</span>
+                        <span className="actions"><i class="fas fa-circle"></i></span>
                     </li>
                     <li>
-                        <span className="actions">t</span>
+                        <span className="actions"><i class="fas fa-trash-alt"></i></span>
                     </li>
                     <li>
-                        <span className="actions">s</span>
+                        <span className="actions"><i class="fas fa-bug"></i></span>
                     </li>
                 </ul>
             </div>
