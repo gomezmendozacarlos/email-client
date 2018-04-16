@@ -1,7 +1,8 @@
 @import 'variables';
-@import 'emailWrapler';
+@import 'emailWrapper';
 @import 'emailList';
 @import 'emailList-mail';
+@import 'emailView';
 
 body {
     font-family: $font-stack;

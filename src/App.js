@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import EmailWrapler from './components/EmailWrapler';
+import EmailWrapper from './components/EmailWrapper';
 import './styles/App.scss';
 
 class App extends Component {
     render() {
         return (
-            <EmailWrapler />
+            <EmailWrapper />
         );
     }
 }

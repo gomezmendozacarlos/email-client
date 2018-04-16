@@ -3,10 +3,10 @@ import EmailList from './EmailList';
 import EmailView from './EmailView';
 import '../styles/App.scss';
 
-class EmailWrapler extends Component {
+class EmailWrapper extends Component {
     render() {
         return (
-            <div className="emailWrapler">
+            <div className="emailWrapper">
                 <EmailList />
                 <EmailView />
             </div>
@@ -14,4 +14,4 @@ class EmailWrapler extends Component {
     }
 }
 
-export default EmailWrapler;
+export default EmailWrapper;
