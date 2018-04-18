@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import '../styles/App.scss';
+import '../../styles/App.scss';
 
 class EmailListMail extends Component {
     render() {
         return (<section>
             <article className="emailList-mail">
                 <div className="indicators">
-                    <span className="read not"><i class="fas fa-circle"></i></span>
+                    <span className="read not"><i className="fas fa-circle"></i></span>
                 </div>
                 <div className="details">
                     <div className="sender">

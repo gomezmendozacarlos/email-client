@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import EmailList from './EmailList';
-import EmailView from './EmailView';
-import '../styles/App.scss';
+import EmailList from '../EmailList/index';
+import EmailView from '../EmailView/index';
+import '../../styles/App.scss';
 
 class EmailWrapper extends Component {
     render() {

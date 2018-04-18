@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../styles/App.scss';
+import '../../styles/App.scss';
 
 class EmailView extends Component {
     render() {
@@ -8,13 +8,13 @@ class EmailView extends Component {
                 <span className="subjet">Amazon SES Adress Verification Request</span>
                 <ul>
                     <li>
-                        <span className="actions"><i class="fas fa-circle"></i></span>
+                        <span className="actions"><i className="fas fa-circle"></i></span>
                     </li>
                     <li>
-                        <span className="actions"><i class="fas fa-trash-alt"></i></span>
+                        <span className="actions"><i className="fas fa-trash-alt"></i></span>
                     </li>
                     <li>
-                        <span className="actions"><i class="fas fa-bug"></i></span>
+                        <span className="actions"><i className="fas fa-bug"></i></span>
                     </li>
                 </ul>
             </div>
@@ -24,8 +24,8 @@ class EmailView extends Component {
                         <li>
                             <span className="name">Amazon.com</span>
                         </li>
-                        <li>
-                            <span className="mail">noreply@amazon.com</span>
+                        <li  className="mail">
+                            &#60;<span>noreply@amazon.com</span>&#62;
                         </li>
                     </ul>
                     <span className="date">Thursday, May 26, 11:09 AM</span>

@@ -1,10 +1,16 @@
 @import 'variables';
-@import 'emailWrapper';
-@import 'emailList';
-@import 'emailList-mail';
-@import 'emailView';
+@import '../components/EmailWrapper/styles';
+@import '../components/EmailList/styles';
+@import '../components/EmailListMail/styles';
+@import '../components/EmailView/styles';
 
 body {
     font-family: $font-stack;
     color: $text;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }

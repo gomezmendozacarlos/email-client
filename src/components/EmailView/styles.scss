@@ -39,6 +39,10 @@
             font-size: 19px;
             color: $mail_action;
         }
+
+        .actions:hover {
+            cursor: pointer;
+        }
     }
 }
 
